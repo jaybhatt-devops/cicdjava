@@ -4,8 +4,7 @@ phases:
   install:
     commands:
     runtime-versions:
-      java: corretto8
-	  
+      java: corretto8 
   pre_build:
     commands:
       - apt-get update
