@@ -12,7 +12,7 @@ phases:
       - apt-get install -y maven
   build:
     commands: 
-      - mav -v
+      - mvn -v
       - echo Build started on `date`
       - mvn package 
 #  post_build:
