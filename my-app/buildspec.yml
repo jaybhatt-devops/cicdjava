@@ -4,7 +4,6 @@ phases:
   install:
     commands:
     - echo installing maven...
-    - sudo apt-get update -y
     - sudo apt-get install -y maven 
     runtime-versions:
       java: openjdk8
