@@ -6,8 +6,8 @@ phases:
     - echo installing maven...
     - sudo apt-get update -y
     - sudo apt-get install -y maven 
-#    runtime-versions:
-#      java: corretto8
+    runtime-versions:
+      java: corretto8
   build:
     commands:
       - echo Build started on `date`
